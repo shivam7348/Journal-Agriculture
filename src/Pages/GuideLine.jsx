@@ -13,7 +13,7 @@ function GuideLine() {
       {/* About Section */}
       <div className="max-w-5xl w-full bg-white shadow-lg rounded-lg mt-8 p-8">
         <h2 className="text-3xl font-extrabold text-gray-900 text-center mb-6">
-          About the Journal
+          Follow the Guidelines
         </h2>
 
         <div className="space-y-6 text-gray-700 leading-relaxed">
