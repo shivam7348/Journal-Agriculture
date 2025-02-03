@@ -9,7 +9,7 @@ const Home = () => {
     <>
       <AutoSlider />
       <HeroSection />
-      <AboutUs />
+      {/* <AboutUs /> */}
       <GuideLine />
     </>
   );
