@@ -6,7 +6,7 @@ import Topheader from "./src/Header/TopHeader";
 function Layout() {
   return (
     <>
-    <Topheader/>
+    {/* <Topheader/> */}
       <Header />
       <Outlet />
       <Footer/>
