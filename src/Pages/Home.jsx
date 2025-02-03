@@ -2,6 +2,7 @@ import AutoSlider from '../components/AutoSlider';
 import GuideLine from './GuideLine';
 import HeroSection from './HeroSection';
 import AboutUs from './AboutUs';
+import Scope from './Scope';
 
 const Home = () => {
 
@@ -10,6 +11,7 @@ const Home = () => {
       <AutoSlider />
       <HeroSection />
       {/* <AboutUs /> */}
+      <Scope/>
       <GuideLine />
     </>
   );

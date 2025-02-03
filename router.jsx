@@ -6,6 +6,7 @@ import AboutUs from "./src/Pages/AboutUs";
 import ContactUs from "./src/Pages/ContactUs";
 import EditorialBoard from "./src/Pages/EditorialBoard";
 import GuideLine from "./src/Pages/GuideLine";
+import TopicPage from "./src/Pages/Scope/Topic";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: "about",
         element: <AboutUs />,
+      },
+      {
+        path: "/topic/:topicName",
+         element: <TopicPage />
       },
       {
         path: "guideline",
