@@ -9,7 +9,7 @@ const AutoSlider = () => {
   const slides = [
     { url: image1, title: "slider1" },
     { url: image3, title: "Birthday Celebrations" },
-    { url: image2, title: "slider2" },
+    // { url: image2, title: "slider2" },
     // { url: image4, title: "Corporate Events" },
   ];
 

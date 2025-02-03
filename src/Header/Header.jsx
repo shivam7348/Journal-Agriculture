@@ -20,12 +20,12 @@ const Header = () => {
       <header className="w-full bg-white shadow-sm sticky top-0 z-50">
         <div className="container mx-auto my-auto py-4 flex justify-between items-center">
           <div>
-            <Link to="/">
-           <span className="text-red-500 font-bold">
-            The Journal of Agricultural Development & Innovations
+          <Link to="/">
+  <span className="text-red-500 font-extrabold text-xl tracking-wide">
+    The Journal of Agricultural Development & Innovations
+  </span>
+</Link>
 
-           </span>
-           </Link>
           </div>
 
           <button
