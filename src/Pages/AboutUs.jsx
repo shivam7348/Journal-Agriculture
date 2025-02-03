@@ -19,12 +19,14 @@ function AboutUs() {
               that aim to improve agricultural practices, sustainability, food security, and rural livelihoods.
             </p>
             <p className="leading-relaxed">
-              Our scope encompasses a broad range of topics including agricultural technology, 
-              crop science, livestock management, soil health, water management, agricultural 
-              economics, and policy. Through comprehensive research and analysis, we aim to 
-              address the most pressing challenges facing modern agriculture.
+            The goal of the journal is to provide a platform for researchers, policymakers, and practitioners to share their work and insights, fostering collaboration and innovation in the agricultural sector. By publishing cutting-edge research and practical innovations, it aims to promote sustainable and efficient agricultural practices that address global challenges such as climate change, food insecurity, and resource depletion.
+
             </p>
             <p className="leading-relaxed">
+            Articles in the journal typically undergo a peer-review process to ensure scientific rigor and quality. The journal is often cited by academics and professionals in the field, serving as a valuable resource for those working to improve agriculture and rural development worldwide.
+
+            </p>
+            {/* <p className="leading-relaxed">
               By publishing cutting-edge research and practical innovations, we foster 
               collaboration between researchers, policymakers, and practitioners. Our goal 
               is to promote sustainable and efficient agricultural practices that address 
@@ -35,7 +37,7 @@ function AboutUs() {
                 Published quarterly in March, June, September, and December under the guidance 
                 of eminent scientists in the field.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
