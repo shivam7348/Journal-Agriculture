@@ -6,10 +6,39 @@ function AboutUs() {
     <div className="flex flex-col items-center justify-center p-6">
       {/* <img src={aboutImage} alt="About Us" className="w-full max-w-2xl rounded-lg shadow-lg" /> */}
       <h2 className="text-2xl font-bold mt-4">x</h2>
-      <p className="text-lg text-gray-700 mt-2 text-center max-w-2xl">
-        Our journal is dedicated to exploring new advancements in agriculture, fostering innovations,
-        and sharing knowledge to improve farming techniques and sustainability practices worldwide.
-      </p>
+      <div className="max-w-4xl mx-auto px-6 py-12">
+        <div className="bg-white rounded-lg shadow-lg p-8">
+          <h2 className="text-3xl font-bold text-gray-800 mb-6 text-center">
+            About the Journal
+          </h2>
+          <div className="space-y-6 text-gray-700">
+            <p className="leading-relaxed">
+              The Journal of Agricultural Development & Innovations is a prestigious scholarly 
+              publication dedicated to advancing research in the field of agriculture. It serves 
+              as a platform for disseminating groundbreaking studies, innovations, and developments 
+              that aim to improve agricultural practices, sustainability, food security, and rural livelihoods.
+            </p>
+            <p className="leading-relaxed">
+              Our scope encompasses a broad range of topics including agricultural technology, 
+              crop science, livestock management, soil health, water management, agricultural 
+              economics, and policy. Through comprehensive research and analysis, we aim to 
+              address the most pressing challenges facing modern agriculture.
+            </p>
+            <p className="leading-relaxed">
+              By publishing cutting-edge research and practical innovations, we foster 
+              collaboration between researchers, policymakers, and practitioners. Our goal 
+              is to promote sustainable and efficient agricultural practices that address 
+              global challenges such as climate change, food insecurity, and resource depletion.
+            </p>
+            <div className="border-l-4 border-green-600 pl-4 my-8">
+              <p className="text-lg font-semibold text-green-800">
+                Published quarterly in March, June, September, and December under the guidance 
+                of eminent scientists in the field.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

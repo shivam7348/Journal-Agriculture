@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import image1 from "../assets/slider1.jpg";
+import image1 from "../assets/slider1.png";
 import image2 from "../assets/slider2.png";
 import image3 from "../assets/slider3.png";
 // import image4 from "../assets/Cute  Shower.png";
@@ -7,8 +7,8 @@ import image3 from "../assets/slider3.png";
 
 const AutoSlider = () => {
   const slides = [
-    { url: image3, title: "Birthday Celebrations" },
     { url: image1, title: "slider1" },
+    { url: image3, title: "Birthday Celebrations" },
     { url: image2, title: "slider2" },
     // { url: image4, title: "Corporate Events" },
   ];

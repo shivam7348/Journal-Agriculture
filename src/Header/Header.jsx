@@ -80,52 +80,52 @@ const Header = () => {
               <li>
                 <Link
                   to="/"
-                  className="relative group text-gray-600 pb-2 lg:pb-6"
+                  className="relative group text-white-600 pb-2 lg:pb-2"
                   onClick={closeMenu}
                 >
                   Home
-                  <span className="absolute left-0 bottom-[-6px] lg:bottom-[-4px] w-full h-[3px] bg-pink-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
+                  <span className="absolute left-0 bottom-[-6px] lg:bottom-[-4px] w-full h-[3px] bg-green-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
                 </Link>
               </li>
               <li>
                 <Link
                   to="/about"
-                  className="relative group text-gray-600 pb-2 lg:pb-6"
+                  className="relative group text-white-600 pb-2 lg:pb-2"
                   onClick={closeMenu}
                 >
                   About us
-                  <span className="absolute left-0 bottom-[-6px] lg:bottom-[-4px] w-full h-[3px] bg-pink-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
+                  <span className="absolute left-0 bottom-[-6px] lg:bottom-[-4px] w-full h-[3px] bg-green-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
                 </Link>
               </li>
               <li>
                 <Link
                   to="/editorailboard"
-                  className="relative group text-gray-600 pb-2 lg:pb-6"
+                  className="relative group text-white-600 pb-2 lg:pb-2"
                   onClick={closeMenu}
                 >
                   Editorail Board
-                  <span className="absolute left-0 bottom-[-6px] lg:bottom-[-4px] w-full h-[3px] bg-pink-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
+                  <span className="absolute left-0 bottom-[-6px] lg:bottom-[-4px] w-full h-[3px] bg-green-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
                 </Link>
               </li>
               <li>
                 <Link
                   to="/guideline"
-                  className="relative group text-gray-600 pb-2 lg:pb-6"
+                  className="relative group text-white-600  lg:pb-2"
                   onClick={closeMenu}
                 >
                   Guidelines
-                  <span className="absolute left-0 bottom-[-6px] lg:bottom-[-4px] w-full h-[3px] bg-pink-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
+                  <span className="absolute left-0 bottom-[-6px] lg:bottom-[-4px] w-full h-[3px] bg-green-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
                 </Link>
               </li>
 
               <li>
                 <Link
                   to="/contact"
-                  className="relative group text-gray-600 pb-2 lg:pb-6"
+                  className="relative group text-white-600 pb-2 lg:pb-2"
                   onClick={closeMenu}
                 >
                   Contact Us
-                  <span className="absolute left-0 bottom-[-6px] lg:bottom-[-4px] w-full h-[3px] bg-pink-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
+                  <span className="absolute left-0 bottom-[-6px] lg:bottom-[-4px] w-full h-[3px] bg-green-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
                 </Link>
               </li>
 
