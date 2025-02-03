@@ -4,7 +4,6 @@ function AboutUs() {
   return (
     <div className="flex flex-col items-center justify-center p-6">
       <img src={aboutus} alt="About Us" className="w-full max-w-4xl rounded-lg shadow-lg" />
-      <h2 className="text-2xl font-bold mt-4">x</h2>
       <div className="max-w-5xl mx-auto px-6 py-12">
         <div className="bg-white rounded-lg shadow-lg p-8">
           <h2 className="text-3xl font-bold text-gray-800 mb-6 text-center">
