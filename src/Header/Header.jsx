@@ -22,7 +22,7 @@ const Header = () => {
           <div>
             <Link to="/">
            <span className="text-red-500 font-bold">
-           Journal of Agricultural Development & Innovations
+            The Journal of Agricultural Development & Innovations
 
            </span>
            </Link>
