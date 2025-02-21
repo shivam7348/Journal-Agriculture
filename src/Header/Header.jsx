@@ -22,10 +22,10 @@ const Header = () => {
               <img
                 src="/logo.png" // Change this path to your actual logo location
                 alt="Journal Logo"
-                className="h-16 w-20 object-contain"
+                className=" h-12 "
               />
               {/* <span className="text-red-500 font-extrabold text-xl tracking-wide">
-                The Journal of Agricultural Development & Innovations
+                The Journal of Agricultural <br/>Development & Innovations
               </span> */}
             </Link>
           </div>
