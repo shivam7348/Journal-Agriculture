@@ -1,7 +1,4 @@
 import { useState } from "react";
-// import logo from "../assets/logo.jpeg";
-
-// import logo from "../assets/logo.jpg"
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -19,15 +16,21 @@ const Header = () => {
     <>
       <header className="w-full bg-white shadow-sm sticky top-0 z-50">
         <div className="container mx-auto my-auto py-4 flex justify-between items-center">
-          <div>
-          <Link to="/">
-  <span className="text-red-500 font-extrabold text-xl tracking-wide">
-    The Journal of Agricultural Development & Innovations
-  </span>
-</Link>
-
+          {/* Logo and Journal Name */}
+          <div className="flex items-center space-x-3">
+            <Link to="/" className="flex items-center space-x-3">
+              <img
+                src="/logo.png" // Change this path to your actual logo location
+                alt="Journal Logo"
+                className="h-16 w-20 object-contain"
+              />
+              {/* <span className="text-red-500 font-extrabold text-xl tracking-wide">
+                The Journal of Agricultural Development & Innovations
+              </span> */}
+            </Link>
           </div>
 
+          {/* Mobile Menu Button */}
           <button
             onClick={toggleMenu}
             className="lg:hidden focus:outline-none"
@@ -103,21 +106,20 @@ const Header = () => {
                   className="relative group text-white-600 pb-2 lg:pb-2"
                   onClick={closeMenu}
                 >
-                  Editorail Board
+                  Editorial Board
                   <span className="absolute left-0 bottom-[-6px] lg:bottom-[-4px] w-full h-[3px] bg-green-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
                 </Link>
               </li>
               <li>
                 <Link
                   to="/guideline"
-                  className="relative group text-white-600  lg:pb-2"
+                  className="relative group text-white-600 lg:pb-2"
                   onClick={closeMenu}
                 >
                   Guidelines
                   <span className="absolute left-0 bottom-[-6px] lg:bottom-[-4px] w-full h-[3px] bg-green-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
                 </Link>
               </li>
-
               <li>
                 <Link
                   to="/contact"
@@ -128,10 +130,8 @@ const Header = () => {
                   <span className="absolute left-0 bottom-[-6px] lg:bottom-[-4px] w-full h-[3px] bg-green-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
                 </Link>
               </li>
-
             </ul>
           </nav>
-
         </div>
       </header>
     </>
