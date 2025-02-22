@@ -24,7 +24,7 @@ const Footer = () => {
 
         <hr className="border-gray-700 my-4" />
         
-        <p className="text-gray-500 text-sm">&copy; 2024 The Journal of Agricultural Development & Innovations. All rights reserved.</p>
+        <p className="text-gray-500 text-sm">&copy; 2025 The Journal of Agricultural Development & Innovations. All rights reserved.</p>
       </div>
     </footer>
   );
