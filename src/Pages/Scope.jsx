@@ -49,7 +49,7 @@ const Scope = () => {
         {topics.map((topic, index) => (
           <Link
             key={index}
-            to={`/topic/${topic}`}
+            // to={`/topic/${topic}`}
             className="bg-gray-100 p-6 rounded-lg shadow-lg text-center hover:bg-gray-200 transform transition-all hover:scale-105"
           >
             <h2 className="text-xl font-medium">{topic}</h2>
