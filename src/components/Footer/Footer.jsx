@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-6 mt-10">
       <div className="container mx-auto px-6 text-center">
-        <h2 className="text-lg font-semibold">The Journal of Agricultural Development & Innovations</h2>
+        <h2 className="text-lg font-semibold"> JournalAgro Science Letters</h2>
         <p className="text-gray-400 mt-1">268, Kachera Warsabad, District-GB Nagar, UP-203207</p>
         
         <div className="mt-3">
@@ -14,7 +14,7 @@ const Footer = () => {
           <p className="text-gray-400">
             <strong>Email:</strong> 
             <a href="mailto:jpbr.anil@gmail.com" className="text-blue-400 hover:underline ml-1">
-              jpbr.anil@gmail.com
+            aslsubmitarticles@gmail.com
             </a>
           </p>
           <p className="text-gray-400">
@@ -24,7 +24,7 @@ const Footer = () => {
 
         <hr className="border-gray-700 my-4" />
         
-        <p className="text-gray-500 text-sm">&copy; 2025 The Journal of Agricultural Development & Innovations. All rights reserved.</p>
+        <p className="text-gray-500 text-sm">&copy; 2025  JournalAgro Science Letters. All rights reserved.</p>
       </div>
     </footer>
   );

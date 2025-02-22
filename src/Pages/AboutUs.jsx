@@ -3,7 +3,7 @@ import aboutus from "../assets/aboutus.png"
 function AboutUs() {
   return (
     <div className="flex flex-col items-center justify-center p-6">
-      <img src={aboutus} alt="About Us" className="w-full max-w-4xl rounded-lg shadow-lg" />
+      <img src={aboutus} alt="About Us" className="w-full max-w-6xl rounded-lg shadow-lg" />
       <div className="max-w-5xl mx-auto px-6 py-12">
         <div className="bg-white rounded-lg shadow-lg p-8">
           <h2 className="text-3xl font-bold text-gray-800 mb-6 text-center">
@@ -11,7 +11,7 @@ function AboutUs() {
           </h2>
           <div className="space-y-6 text-gray-700 leading-relaxed">
           <p>
-            <strong>The Journal of Agricultural Development & Innovations</strong> is a prestigious
+            <strong>JournalAgro Science Letters </strong> is a prestigious
             scholarly publication dedicated to advancing research in agriculture. It serves as a
             platform for groundbreaking studies, innovations, and developments aimed at improving
             agricultural practices, sustainability, food security, and rural livelihoods.

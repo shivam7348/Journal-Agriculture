@@ -18,7 +18,7 @@ function GuideLine() {
 
         <div className="space-y-6 text-gray-700 leading-relaxed">
           <p>
-            <strong>The Journal of Agricultural Development & Innovations</strong> is a prestigious
+            <strong>JournalAgro Science Letters</strong> is a prestigious
             scholarly publication dedicated to advancing research in agriculture. It serves as a
             platform for groundbreaking studies, innovations, and developments aimed at improving
             agricultural practices, sustainability, food security, and rural livelihoods.

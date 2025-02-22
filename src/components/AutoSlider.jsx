@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
-import image1 from "../assets/slider1.png";
-import image2 from "../assets/slider2.png";
+import image1 from "../assets/1.png";
+import image2 from "../assets/2.png";
 
 const AutoSlider = () => {
   const slides = [
-    { url: image1, title: "slider1" },
-    { url: image2, title: "slider2" },
+    { url: image1, title: "" },
+    { url: image2, title: "" },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -51,7 +51,7 @@ const AutoSlider = () => {
     >
       <div className="w-full max-w-11xl">
         <div
-          className="relative h-[300px] sm:h-[600px] md:h-[500px] lg:h-[800px] overflow-hidden rounded-lg shadow-2xl"
+          className="relative h-[300px] sm:h-[600px] md:h-[500px] lg:h-[700px] overflow-hidden rounded-lg shadow-2xl"
           onMouseEnter={() => setIsPaused(true)}
           onMouseLeave={() => setIsPaused(false)}
         >
