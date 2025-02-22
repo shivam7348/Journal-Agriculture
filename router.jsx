@@ -7,6 +7,7 @@ import ContactUs from "./src/Pages/ContactUs";
 import EditorialBoard from "./src/Pages/EditorialBoard";
 import GuideLine from "./src/Pages/GuideLine";
 import TopicPage from "./src/Pages/Scope/Topic";
+import Archieves from "./src/Pages/Archieves"; 
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "guideline",
       element: <GuideLine/>
+      },
+      {
+        path: "archeives",
+      element: <Archieves />,
       },
       {
         path: "contact",
