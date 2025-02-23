@@ -8,6 +8,8 @@ import EditorialBoard from "./src/Pages/EditorialBoard";
 import GuideLine from "./src/Pages/GuideLine";
 import TopicPage from "./src/Pages/Scope/Topic";
 import Archieves from "./src/Pages/Archieves"; 
+import Volume1 from "./src/Pages/Volume1";
+import Volume2 from "./src/Pages/Volume2";
 
 const router = createBrowserRouter([
   {
@@ -31,8 +33,16 @@ const router = createBrowserRouter([
       element: <GuideLine/>
       },
       {
-        path: "archeives",
+        path: "archives",
       element: <Archieves />,
+      },
+      {
+        path: "archives/volume1",
+        element: <Volume1/>
+      },
+      {
+        path: "archives/volume2",
+        element: <Volume2/>
       },
       {
         path: "contact",
