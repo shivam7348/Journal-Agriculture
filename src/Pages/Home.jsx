@@ -10,9 +10,10 @@ const Home = () => {
     <>
       <AutoSlider />
       <HeroSection />
-      {/* <AboutUs /> */}
+      <AboutUs />
       <Scope/>
       <GuideLine />
+
     </>
   );
 };

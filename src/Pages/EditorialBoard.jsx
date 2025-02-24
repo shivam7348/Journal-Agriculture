@@ -1,5 +1,6 @@
 import React from 'react';
-import { AssociateEditors, editorialMembers, editorialMembers2 } from '../utils/contants';
+import { AssociateEditors, editorialMembers, editorialMembers2 } from '../../utils/contants';
+
 
 const MemberCard = ({ member }) => (
   <div className="bg-white p-6 rounded-lg shadow-lg text-center transition-transform hover:scale-105">
