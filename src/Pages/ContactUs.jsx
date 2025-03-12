@@ -30,7 +30,7 @@ const ContactUs = () => {
           <p className="text-gray-600">
             <strong>Email:</strong> 
             <a href="mailto:jpbr.anil@gmail.com" className="text-green-600 hover:underline ml-1">
-              jpbr.anil@gmail.com
+            aslsubmitarticles@gmail.com
             </a>
           </p>
         </div>
